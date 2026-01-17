@@ -1,13 +1,13 @@
-# Student Dropout and Academic Success Prediction
+# Student Dropout and Academic Success Prediction (CW2)
 
-This repository contains the Coursework 2 implementation for the Artificial Intelligence module.
+This project is a Coursework 2 AI prototype for predicting student academic outcomes:
+- Graduate (0)
+- Dropout (1)
+- Enrolled (2)
 
 ## Files Included
-- `predict_student_dropout_and_academic_success.ipynb`  
-  Jupyter Notebook containing data preprocessing, model training, evaluation, and visualization.
-
-- `data.csv`  
-  Dataset used for training and testing the machine learning models.
+- `predict_student_dropout_and_academic_success.ipynb` : main application notebook
+- `data.csv` : dataset used for training/testing
 
 ## Models Used
 - Logistic Regression
@@ -15,9 +15,7 @@ This repository contains the Coursework 2 implementation for the Artificial Inte
 - Random Forest (Primary Model)
 
 ## How to Run
-1. Open the notebook using Jupyter Notebook or Jupyter Lab
-2. Run all cells sequentially
-3. Results including accuracy, confusion matrices, and feature importance will be generated
-
-## Notes
-This project is an academic prototype developed for coursework purposes.
+1. Download the repository or clone it
+2. Install required libraries:
+   ```bash
+   pip install pandas numpy scikit-learn matplotlib
